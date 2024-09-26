@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <form class="search-form" action="/search" method="GET">
+                    <button type="submit" class="submit-button">
+                        <img src="./img/search.svg" class="submit-icon" alt="Search">
+                    </button>
+                    <input type="text" class="searchbox" name="searchInput" placeholder="Search...">
+                </form>
+            </div>
+            <div class="user">
+                <div class="night-mode">
+                    <img src="./img/night-mode.svg" alt="">
+                </div>
+                <div class="avatar">
+                    <img src="./img/avatar.jpg" alt="">
+                </div>
+                <div class="username">
+                    <span>Ivan Inandan</span>
+                </div>
+            </div>
+            <div class="greeting">
+                <div class="greeting-icon">
+                    <img src="./img/avatar.jpg" alt="">
+                </div>
+                <div class="greeting-message">
+                    <div class="message">
+                        <span>Hi there,</span>
+                    </div>
+                    <div class="name">
+                        <span>Ivan Inandan (@visvals)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="nav-button">New</button>
+                <button class="nav-button">Upload</button>
+                <button class="nav-button">Share</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-item-first">
+                <a href="dashboard.html" Dashboard">
+                    <img src="./img/dashboard.svg" alt="dashboard icon" class="first-icon">
+                    Dashboard
+                </a>
+            </div>
+            <div></div>
+            <div class="sidebar-item">
+                <a href="home.html">
+                    <img src="./img/home.svg" alt="home icon" class="icon">
+                    Home
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="profile.html">
+                    <img src="./img/profile.svg" alt="profile icon" class="icon">
+                    Profile
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="messages.html">
+                    <img src="./img/messages.svg" alt="messages icon" class="icon">
+                    Messages
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="history.html">
+                    <img src="./img/history.svg" alt="history icon" class="icon">
+                    History
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="task.html">
+                    <img src="./img/tasks.svg" alt="task icon" class="icon">
+                    Task
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="communities.html">
+                    <img src="./img/communities.svg" alt="communities icon" class="icon">
+                    Communities
+                </a>
+            </div>
+            <div></div>
+            <div class="sidebar-item">
+                <a href="settings.html">
+                    <img src="./img/settings.svg" alt="settings icon" class="icon">
+                    Settings
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="support.html">
+                    <img src="./img/support.svg" alt="support icon" class="icon">
+                    Support
+                </a>
+            </div>
+            <div class="sidebar-item">
+                <a href="privacy.html">
+                    <img src="./img/privacy.svg" alt="privacy icon" class="icon">
+                    Privacy
+                </a>
+            </div>
+        </div>
+        <div class="projects">
+            <span class="title">Your projects</span>
+            <div class="projects-container">
+                <div class="project-item">
+                    <div class="title">First super cool project</div>
+                    <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis cum
+                        inventore reprehenderit maiores repellat magnam voluptate ratione laboriosam? Alias illum libero
+                        amet repellat possimus laudantium, quaerat ipsa dicta illo odio!-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="title">Second super cool project</div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio id sapiente
+                        sint assumenda praesentium maxime veniam hic itaque natus ab temporibus sunt illo nihil
+                        laudantium aliquid vero, molestias labore dicta?-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="title">Third super cool project</div>
+                    <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, harum
+                        aperiam eaque recusandae minus odit esse quisquam, et, nihil similique omnis vel nemo magni
+                        animi excepturi perspiciatis amet ab sed?-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="title">Fourth super cool project</div>
+                    <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore aut eaque
+                        dolor temporibus labore! Eum impedit minus amet iure veritatis molestiae nesciunt ipsum,
+                        asperiores in dolor vero earum voluptate veniam.-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="title">Fifth super cool project</div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam esse ipsam
+                        aperiam! Veritatis atque nulla non libero quos quasi et unde rerum ex, in consectetur pariatur
+                        asperiores neque ullam nam!-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="title">Sixth super cool project</div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi neque cumque
+                        sequi sit libero possimus laboriosam nesciunt excepturi, atque, qui doloribus asperiores eaque
+                        facilis eius provident. Cum voluptas aliquid nihil.-1</div>
+                    <div class="interact">
+                        <img src="./img/like.svg" alt="" class="interact-icon">
+                        <img src="./img/watch.svg" alt="" class="interact-icon">
+                        <img src="./img/branch.svg" alt="" class="interact-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="announcements">
+            <span class="title">Announcements</span>
+            <div class="announcements-container">
+                <div class="post">
+                    <div class="post-title">First post</div>
+                    <div class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates
+                        expedita qui magnam repudiandae ut, eveniet accusamus fugit provident nesciunt dignissimos
+                        consequatur eius repellendus tempore nobis illo. Harum, inventore quisquam.</div>
+                    <hr />
+                </div>
+                <div class="post">
+                    <div class="post-title">Second post</div>
+                    <div class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates
+                        expedita qui magnam repudiandae ut, eveniet accusamus fugit provident nesciunt dignissimos
+                        consequatur eius repellendus tempore nobis illo. Harum, inventore quisquam.</div>
+                    <hr />
+                </div>
+                <div class="post">
+                    <div class="post-title">Third post</div>
+                    <div class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptates
+                        expedita qui magnam repudiandae ut, eveniet accusamus fugit provident nesciunt dignissimos
+                        consequatur eius repellendus tempore nobis illo. Harum, inventore quisquam.</div>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <span class="title">Trending</span>
+            <div class="trending-container">
+                <div class="trending-user">
+                    <div class="avatar">
+                        <img src="./img/avatar-1.jpeg" alt="">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-handle">@visvals</div>
+                        <div class="user-name">Ivan Inandan</div>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <div class="avatar">
+                        <img src="./img/avatar-2.jpeg" alt="">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-handle">@learosemiranda</div>
+                        <div class="user-name">Learose Gotico Miranda</div>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <div class="avatar">
+                        <img src="./img/avatar-3.jpeg" alt="">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-handle">asd</div>
+                        <div class="user-name">asd</div>
+                    </div>
+                </div>
+                <div class="trending-user">
+                    <div class="avatar">
+                        <img src="./img/avatar-4.jpeg" alt="">
+                    </div>
+                    <div class="user-info">
+                        <div class="user-handle">asd</div>
+                        <div class="user-name">asd</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
